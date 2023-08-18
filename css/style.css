@@ -154,7 +154,6 @@ a:link {
 .solution {
   display: flex;
   justify-content: space-between;
-  padding: 0px;
 }
 .solution-card {
   display: flex;
