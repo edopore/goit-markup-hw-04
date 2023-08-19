@@ -341,7 +341,8 @@ a:link {
   background-color: var(--nav-bg-color);
   color: var(--title-font-color);
 }
-.btn-lst:hover {
+.btn-lst:hover,
+.btn-lst:focus {
   background-color: var(--blue-font-color);
   color: var(--white);
   box-shadow: 0px 3px var(--desc-font-color-shadow);
