@@ -123,10 +123,13 @@ a:link {
 .title {
   background-color: var(--title-bg-color);
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.788),
-      var(--desc-font-color-shadow)
+      180deg,
+      rgba(2, 0, 36, 1),
+      rgba(5, 5, 87, 0.11)
     ),
     url("../images/work-group.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
 }
 .h1-title {
   color: var(--white);
@@ -201,7 +204,7 @@ a:link {
 .team-card h3 {
   color: var(--title-font-color);
 }
-.team-card:hover > li:hover {
+.team-card > li {
   box-shadow: 2px 3px var(--desc-font-color-shadow);
 }
 
@@ -349,7 +352,8 @@ a:link {
   justify-content: space-between;
 }
 .card-info {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   width: 370px;
   text-align: left;
   margin-bottom: 30px;
@@ -363,7 +367,7 @@ a:link {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
-  margin: 0px 8px;
+  margin: 0px 10px;
 }
 .img {
   display: block;
@@ -372,7 +376,10 @@ a:link {
   margin: 0px 10px;
 }
 .text-info {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 370px;
   border: 1px solid var(--nav-bg-color);
-  padding: 10px 10px;
+  padding: 40px 10px;
 }
