@@ -129,7 +129,8 @@ a:link {
     ),
     url("../images/work-group.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1600px;
+  background-position: center;
 }
 .h1-title {
   color: var(--white);
